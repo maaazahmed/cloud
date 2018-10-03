@@ -38,7 +38,9 @@
     flex-direction: row;
     justify-content: space-around;
     margin: auto;
-    margin-top: 5px
+    margin-top: 5px;
+    background-color: aquamarine;
+    /* position: absolute; */
 
  }
 
@@ -46,3 +48,12 @@
     background-color: aquamarine;
     overflow: hidden
 }
+
+
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #061928;
+  }

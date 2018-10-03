@@ -20,6 +20,7 @@ var barishContainer = document.createElement("div")
 barishContainer.setAttribute("id", "barishContainer")
 Object.assign(barishContainer.style, {
     textAlign: "center",
+    // width:
 })
 cloudDiv.appendChild(barishContainer)
 var barishContainer = document.getElementById("barishContainer")
@@ -48,8 +49,8 @@ const barishMove = () => {
     console.log(newNum)
 
     barishPosition = barishPosition + 1
-    var barishDiv = document.createElement("div")
-    barishDiv.setAttribute("class", "barish-div")
+    // var barishDiv = document.createElement("div")
+    // barishDiv.setAttribute("class", "barish-div")
     // Object.assign(barishDiv.style, {
     //     width: (newNum ) + "%"
     // })
@@ -61,20 +62,18 @@ const barishMove = () => {
 
 
 
-    for (var i = 0; i < 30; i++) {
-        var drop = document.createElement("div")
-        Object.assign(drop.style, {
-            backgroundColor: "gray",
-            height: "10px",
-            width: "3px",
-            borderRadius: "100%",
-            transform: "skewY(-100deg)",
-            // marginTop: -i + "px"
-        })
-        barishDiv.appendChild(drop)
-        // console.log(barishDiv.children)
-
-    }
+    // for (var i = 0; i < 30; i++) {
+    //     var drop = document.createElement("div")
+    //     Object.assign(drop.style, {
+    //         backgroundColor: "gray",
+    //         height: "10px",
+    //         width: "3px",
+    //         borderRadius: "100%",
+    //         transform: "skewY(-100deg)",
+    //     })
+    //     barishContainer.appendChild(drop)
+    //     // console.log(barishDiv.children)
+    // }
 
 
 
@@ -101,4 +100,3 @@ setInterval(() => {
 setInterval(() => {
     barishMove()
 }, 100)
-
