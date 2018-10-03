@@ -1,0 +1,48 @@
+/* body{
+    background-image: url("./images/thumb-350-671021.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: 100%
+} */
+
+
+
+
+
+
+.cloud-img-div{
+  position: absolute;
+  top: 0px;
+  /* left: 1000px; */
+  height: 100%;
+  /* padding: 10px */
+  text-align: center;
+}
+
+
+
+.cloud-img{
+    height: 100px;
+    width: 500px;
+    z-index: 1
+ }
+
+ .barish-div{
+     text-align: center;
+  height: 20px;
+    width: 90%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 5px
+
+ }
+
+ .cloudContainer{
+    background-color: aquamarine;
+    overflow: hidden
+}
