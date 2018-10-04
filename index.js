@@ -45,10 +45,6 @@ const barishMove = () => {
     var top_2 = 90;
     var top_3 = 90;
     var top_4 = 90;
-
-
-
-
     var drop = document.createElement("div");
     var drop2 = document.createElement("div");
     var drop3 = document.createElement("div");
@@ -57,7 +53,6 @@ const barishMove = () => {
     barishContainer.appendChild(drop2);
     barishContainer.appendChild(drop3);
     barishContainer.appendChild(drop4);
-
 
 
 
@@ -89,7 +84,6 @@ const barishMove = () => {
         backgroundColor: "gray",
         height: "10px",
         width: "2px",
-        // margin: "10px",
         marginLeft: Math.floor((randomNumber2 * 450) + 1) + "px",
         borderRadius: "100%",
         position: "absolute",
@@ -114,7 +108,6 @@ const barishMove = () => {
         backgroundColor: "gray",
         height: "10px",
         width: "2px",
-        // margin: "10px",
         marginLeft: Math.floor((randomNumber3 * 450) + 1) + "px",
         borderRadius: "100%",
         position: "absolute",
@@ -137,7 +130,6 @@ const barishMove = () => {
         backgroundColor: "gray",
         height: "10px",
         width: "2px",
-        // margin: "10px",
         marginLeft: Math.floor((randomNumber4 * 450) + 1) + "px",
         borderRadius: "100%",
         position: "absolute",
@@ -145,8 +137,8 @@ const barishMove = () => {
         textAlign: "center",
         transform: "skewY(100deg)",
         left: cloudPosition + randomNumber4 + "px"
-
     })
+
     var d = setInterval(() => {
         if (screenHeight - 200 >= top_4) {
             drop4.style.top = ++top_4 + "px";
